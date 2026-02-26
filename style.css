@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+}
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+input {
+  flex: 1;
+  padding: 8px;
+}
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+li {
+  background: #eee;
+  padding: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Classe para tarefas concluídas */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
